@@ -1,0 +1,29 @@
+{
+  "name": "skillverse-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "server": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@clerk/clerk-sdk-node": "^4.13.23",
+    "@clerk/express": "^1.7.57",
+    "@google/generative-ai": "^0.24.1",
+    "cloudinary": "^2.8.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^4.21.2",
+    "mongoose": "^9.0.1",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.1.11",
+    "stripe": "^20.0.0",
+    "svix": "^1.42.0",
+    "uniqid": "^5.4.0"
+  }
+}
